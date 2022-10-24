@@ -1,0 +1,236 @@
+body {
+    background-image: url("tlochmury.jpg");
+    background-color: #cccccc;
+  }
+.chivastlo1 {
+    background-image: url("chivastlo1.png");
+    z-index: 0;
+    width: 50%;
+    height: 50%;
+    box-shadow: 5px 5px;
+}
+.divchivas {
+    float: left;
+    left: 10px;
+    bottom: 5px;
+    width: 51%;
+} 
+
+.divmlodysay10 {
+    float: right;
+    width: 48%;
+    margin-top: 75px;
+}
+
+.divmlodysay10credits {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: slide-in6 1000ms;
+}
+
+.divmlodysay10start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: slide-in6 1000ms;
+}
+
+@keyframes slide-in6 {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }
+
+@keyframes slide-in {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }
+
+.slidemp {
+    animation: slide-in 1000ms;
+  }
+
+  @keyframes slide-in2 {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }
+
+.slidechivasmp {
+    animation: slide-in2 1000ms;
+  }
+
+@keyframes slide-in3 {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }
+
+  @keyframes slide-in4 {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }
+
+  @keyframes slide-in5 {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }
+
+.gugu {
+    animation: slide-in5 1000ms;
+    position: absolute;
+    right: 4%;
+    top: 20%;
+    width: 12%
+}
+
+.chivasio {
+    display: inline-block;
+    animation: slide-in4 1000ms;
+    position: absolute;
+    right: 7%;
+    width: 45%
+}
+
+.buttonsmp {
+    display: inline-block;
+    display:inline-block;
+    padding:4em 4em;
+    border:0.1em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    text-align:center;
+    transition: all 0.2s;
+    width: 12%;
+}
+.buttonsmp:hover{
+    color:#000000;
+    background-color:#FFFFFF;
+    }
+
+    .creditsypowrotmp {
+        display: inline-block;
+        display:inline-block;
+        padding:4em 4em;
+        border:0.1em solid #FFFFFF;
+        margin:0 0.3em 0.3em 0;
+        border-radius:0.12em;
+        box-sizing: border-box;
+        text-decoration:none;
+        font-family:'Roboto',sans-serif;
+        font-weight:300;
+        color:#FFFFFF;
+        text-align:center;
+        transition: all 0.2s;
+        width: 12%;
+        animation: slide-in2 1000ms;
+        z-index: -1;
+    }
+    .creditsypowrotmp:hover{
+        color:#000000;
+        background-color:#FFFFFF;
+        }
+    
+
+.container {
+    align-items: center;
+    animation: slide-in3 1000ms;
+}
+
+.AZLevelDiv {
+    display: inline-block;
+    background-color: white;
+    width: 325px;
+    height: 400px;
+    border-radius: 15%;
+    margin: 2%;
+    text-align: center;
+    padding: 25px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    animation: slide-in3 1000ms;
+}
+.startstart {
+    display:inline-block;
+    padding:1em 4em;
+    border:0.1em solid black;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:black;
+    text-align:center;
+    transition: all 0.2s;
+    border-radius: 25px;
+    z-index: -1;
+}
+.startstart:hover{
+    color:#ffffff;
+    background-color:#84bef5;
+    }
+
+.NWKBONUSLevelDiv {
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+    border:5px solid red;
+    color: white;
+    width: 770px;
+    height: 400px;
+    border-radius: 50%;
+    margin: 2%;
+    text-align: center;
+    padding: 25px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    animation: slide-in3 1000ms;
+}    
+
+.startstartbonus {
+    display:inline-block;
+    padding:1em 4em;
+    border:0.1em solid rgb(255, 255, 255);
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:rgb(255, 255, 255);
+    text-align:center;
+    transition: all 0.2s;
+    border-radius: 25px;
+    z-index: -1;
+}
+.startstartbonus:hover{
+    color:#ff0000;
+    background-color:#ffffff;
+    }

@@ -1,0 +1,277 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: sans-serif;
+    overflow-y: hidden; 
+    overflow-x: hidden;
+}
+
+#container {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    border: 1px solid red;
+    overflow: hidden;
+    background-image: url("tlochmury.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#score_help {
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    font-size: 25px;
+    width: 25%;
+    border:0.1em dotted #FFFFFF;
+    padding: 5px;
+    z-index: 12;
+    font-family: "Roboto";
+    color: white;
+}
+
+#branch {
+    position: absolute;
+    height: 2%;
+    width: 100%;
+    top: 23%;
+}
+
+.hen {
+    position: absolute;
+    height: 20%;
+    width: 25%;
+    top: 7%;
+    background: url('hen-right.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 100;
+}
+
+#hen0 {
+    top: 1%;
+    left: -1%;
+}
+
+#hen1 {
+    top: 1%;
+    left: 15%;
+}
+
+#hen2 {
+    top: 1%;
+    left: 31%;
+}
+
+#hen3 {
+    top: 1%;
+    left: 48%;
+}
+ 
+#hen4 {
+    top: 1%;
+    left: 65%;
+}
+
+#hen5 {
+    top: 1%;
+    left: 76%;
+}
+
+.egg {
+    position: absolute;
+    top: 5%;
+    height: 5%;
+    width: 2%;
+    background: url('zelek.png');
+    /*  */
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 99;
+}
+
+.egg1 {
+    position: absolute;
+    top: 18%;
+    height: 5%;
+    width: 2%;
+    background: url('zelek.png');
+    /*  */
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 99;
+}
+
+.egg2 {
+    position: absolute;
+    top: 14%;
+    height: 5%;
+    width: 2%;
+    background: url('zelek.png');
+    /*  */
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 99;
+}
+
+.egg3 {
+    position: absolute;
+    top: -3%;
+    height: 5%;
+    width: 2%;
+    background: url('zelek.png');
+    /*  */
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 99;
+}
+
+.egg4 {
+    position: absolute;
+    top: 15%;
+    height: 5%;
+    width: 2%;
+    background: url('zelek.png');
+    /*  */
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 99;
+}
+
+#egg1 {
+    left: calc(15% + 8%/2 - 2%/2);
+}
+
+#egg2 {
+    left: calc(30% + 8%/2 - 2%/2);
+}
+
+#egg3 {
+    left: calc(45% + 8%/2 - 2%/2);
+}
+
+#egg4 {
+    left: calc(60% + 8%/2 - 2%/2);
+}
+
+#egg5 {
+    left: calc(75% + 8%/2 - 2%/2);
+}
+
+.bullseye {
+    display: none;
+    position: absolute;
+    bottom: 0px;
+    height: 7%;
+    width: 7%;
+    background: url('bullseye1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 11;
+}
+
+#bullseye1 {
+    left: calc(20% + 8%/2 - 7%/2);
+}
+
+#bullseye2 {
+    left: calc(40% + 8%/2 - 7%/2);
+}
+
+#bullseye3 {
+    left: calc(60% + 8%/2 - 7%/2);
+}
+
+#floor {
+    position: absolute;
+    height: 7%;
+    width: 100%;
+    background-color: #292929;
+    bottom: 0;
+    z-index: 10;
+}
+
+#basket {
+    bottom: 10px;
+    height: 20%;
+    width: 10%;
+    position: absolute;
+    background: url('basket.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    z-index: 11;
+}
+
+#score_1 {
+    font-family: "Arial";
+    position: absolute;
+    color: #424242;
+    font-size: 30px;
+    top: 45%;
+    left: 30%;
+    display: inline-block;
+}
+
+#restart {
+    border: 0;
+    position: absolute;
+    height: 10%;
+    width: auto;
+    border:0.1em solid #FFFFFF;
+    background-color: rgb(125, 192, 247);
+    color: white;
+    left: 45%;
+    top: 40%;
+    font-size: 35px;
+    display: none;
+    cursor: pointer;
+}
+
+
+.creditsypowrotmp {
+    top: 5%;
+
+    padding:2em 1em;
+    border:0.1em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    text-align:center;
+    transition: all 0.2s;
+    width: 12%;
+    z-index: 101;
+}
+.creditsypowrotmp:hover{
+    color:#000000;
+    background-color:#FFFFFF;
+    }
+
+    #restart1 {
+        top: 5%;
+        padding:2em 2em;
+        border:0.1em solid #FFFFFF;
+        margin:0 0.3em 0.3em 0;
+        border-radius:0.12em;
+        box-sizing: border-box;
+        text-decoration:none;
+        font-family:'Roboto',sans-serif;
+        font-weight:300;
+        color:#FFFFFF;
+        text-align:center;
+        transition: all 0.2s;
+        width: 12%;
+        z-index: 101;
+    }
+    #restart1:hover{
+        color:#000000;
+        background-color:#FFFFFF;
+        }
